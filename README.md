@@ -14,7 +14,7 @@ Admin tarafında kullanıcı web sitesindeki tüm verileri görebilir, ve dinami
 - 🧑‍💻 Hakkımda alanı / About Me section
 - 🛠️ Özgeçmiş & Beceriler / Resume & Skills
 - 📂 Projeler galerisi / Project gallery
-- 📊 İstatistikler bölümü / Stats section (Awards, Projects, Clients)
+- 📊 İstatistikler bölümü / Stats section (Events , Projects, Study Hours)
 - 📬 İletişim formu / Contact form
 - 📱 Mobil uyumlu / Responsive design
 - 🔝 Sayfa başına dön / Back to top button
