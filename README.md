@@ -58,3 +58,9 @@ The code is clean and straightforward, easy to customize.
 
 Hazırlayan / Created by: Göktuğ Berke Güngören
 
+## 📸 Görseller | Images
+
+![Anasayfadan bir ekran götüntüsü](MyPortfolio/wwwroot/myFiles/homepage.png)
+
+![Admin panelden bir ekran götüntüsü](MyPortfolio/wwwroot/myFiles/dashboard.png)
+
