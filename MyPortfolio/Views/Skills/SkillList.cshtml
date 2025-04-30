@@ -1,0 +1,48 @@
+﻿@model List<Skill>
+@{
+    ViewData["Title"] = "SkillList";
+    Layout = "~/Views/Layout/Index.cshtml";
+}
+
+<div class="content">
+	<div class="container-fluid">
+		<h4 class="page-title">Skills</h4>
+		<div class="row">
+			<div class="col-md-12">
+				<div class="card">
+					<div class="card-header">
+						<div class="card-title">Skill List</div>
+					</div>
+					<div class="card-body">
+						<table class="table mt-3">
+							<thead>
+								<tr>
+									<th scope="col">#</th>
+									<th scope="col">Title</th>
+									<th scope="col">Value</th>
+									<th scope="col">Delete</th>
+									<th scope="col">Update</th>
+								</tr>
+							</thead>
+							<tbody>
+								@foreach (var item in Model)
+								{
+									<tr>
+										<td>@item.SkillId</td>
+										<td>@item.Title</td>
+										<td>@item.Value</td>
+										<td><a href=" /Skills/DeleteSkill/@item.SkillId" class="btn btn-danger">Delete<a/></td>
+										<td><a href=" /Skills/UpdateSkill/@item.SkillId" class="btn btn-success">Update<a/></td>
+
+									</tr>
+								}
+							</tbody>
+						</table>
+						<td><a href=" /Skills/CreateSkill/" class="btn btn-primary">Add New Skill<a/></td>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+

@@ -1,0 +1,28 @@
+﻿@model Portfolio
+@{
+    ViewData["Title"] = "PortfolioDetails";
+    Layout = "~/Views/Layout/Index.cshtml";
+}
+
+<input type="hidden" id="PortfolioId" value="@Model.PortfolioId" />
+
+<div class="content">
+	<div class="container-fluid">
+		<h4 class="page-title">Project</h4>
+		<div class="row">
+			<div class="col-md-12">
+				<div class="card">
+					<div class="card-header">
+						<div class="card-title">Project Details</div>
+					</div>
+					<div class="card-body">
+						<b>Send by : </b> @Model.Title <br>
+						<b>Email :</b> @Model.SubTitle <br><br>
+						<b>Message :</b> @Model.Description
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
