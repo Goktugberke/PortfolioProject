@@ -23,7 +23,7 @@ Admin tarafında kullanıcı web sitesindeki tüm verileri görebilir, ve dinami
 
 ## 🛠️ Kullanılan Teknolojiler 
 
-- **HTML / CSS ** – Yapı Ve Tasarım
+- **HTML / CSS** – Yapı Ve Tasarım
 - **JavaScript (Vanilla)** – Etkileşim
 - **jQuery** – Yardımcı kütüphane 
 - **Photoswipe** – Görsel galeri 
